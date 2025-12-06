@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   console.log("Website Elegan Yusuf Ramdani Aktif!");
 
-  // Scroll smooth untuk navbar
+  // Scroll smooth
   document.querySelectorAll("nav a").forEach((link) => {
     link.addEventListener("click", function (e) {
       e.preventDefault();

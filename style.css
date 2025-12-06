@@ -1,4 +1,4 @@
-/* Google Font Elegan */
+/* Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap");
 
 * {
@@ -18,7 +18,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 20px 40px;
+  padding: 15px 40px;
   background: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(5px);
   display: flex;
@@ -27,15 +27,29 @@ nav {
   z-index: 10;
 }
 
-nav .logo {
-  font-size: 24px;
-  font-weight: 700;
+/* Foto + nama */
+.profile-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
 }
 
-nav .logo span {
-  color: #d4af37; /* Gold */
+.profile-box img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #d4af37;
 }
 
+.profile-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #d4af37;
+}
+
+/* Menu */
 nav ul {
   list-style: none;
   display: flex;
